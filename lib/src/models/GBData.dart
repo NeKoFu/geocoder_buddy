@@ -88,7 +88,6 @@ class Address {
 
   factory Address.fromJson(Map<String, dynamic> json) => Address(
         road: json["road"] ?? "",
-        village: json["village"] ?? "",
         houseNumber: json["houseNumber"] ?? "",
         village: json["village"] ?? "",
         city: json["city"] ?? "",

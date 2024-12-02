@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Text(
                 "Search Location",
-                style: Theme.of(context).textTheme.headline3,
+                style: Theme.of(context).textTheme.displaySmall,
               ),
               Container(
                 padding: const EdgeInsets.all(20),
@@ -127,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Text(
                 "Lat/Lng to Details",
-                style: Theme.of(context).textTheme.headline3,
+                style: Theme.of(context).textTheme.displaySmall,
               ),
               Container(
                 padding: const EdgeInsets.all(20),
